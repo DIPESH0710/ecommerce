@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    height:60px;
+    width: 100%;
+    background-color: red;
+    color:white;
+
+
+}
+.cov{
+        height: 100%;
+    width: 100%;
+    margin-bottom: 0px;
+       background-color: beige;
+       background-size: cover;
+      
+    
+}
+
+.navbar{
+   
+    height: 60px;
+    width:100%;
+    justify-content: center;
+    gap:40px;
+   text-align: center;
+   display: flex;
+   font-size: 20px;
+   
+
+   
+
+
+}
+.navbar a{
+      text-decoration: none;
+      color:rgb(12, 1, 1);
+}
+
+      
+ .navbar a:hover {
+    color: #3700ff;
+}
+
+.search{
+    /* justify-content: top; */
+  margin-left: 240px;
+   
+}
+.srch{
+        font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #bcbe0e;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.srch:focus {
+    outline: none;
+}
+
+.butn {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.butn:hover {
+    color: #000;
+}
+
+.butn:focus {
+    outline: none;
+}
+.images{
+
+
+
+  height: 100%;
+  width:100%;
+  margin-left: 20px;
+  margin-top: 30px;
+   display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+}
+#earbud{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+.iphone{
+       height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+h4{
+  font-size: 20px;
+    margin-left: 19px;  
+}
+h5{
+    font-size: 20px;
+    margin-left: 19px;
+}
+.ps5{
+     height: 150px;
+    width: 150px;
+    object-fit: cover; 
+}
+h6{
+    font-size: 20px;
+    margin-left: 19px;
+}
+ .ps{
+    font-size: 20px;
+    margin-left: 19px;
+}
+.laptop{
+     height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+.lap{
+
+font-size: 20px;
+    margin-left: 19px;
+}
+.laprice{
+      font-size: 20px;
+    margin-left: 19px;
+}
+.watch{
+     height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+.wa-name{
+    font-size: 20px;
+    margin-left: 19px;
+}
+.wa-price{
+       font-size: 20px;
+    margin-left: 19px;
+}
+
+
+.ea-fc{
+    height: 150px;
+    width:150px;
+    object-fit: cover;
+}
+.ea-name{
+      font-size: 20px;
+    margin-left: 19px;
+}
+.ea-price{
+        font-size: 20px;
+    margin-left: 19px;
+}
+
+.images1{
+   
+  height: 100%;
+  width:100%;
+  margin-left: 20px;
+  margin-top: 30px;
+   display: grid;
+    grid-template-columns: 20% ;
+}
+   
